@@ -43,7 +43,7 @@ app.get("/item-random", async (req, res) => {
     if (!Array.isArray(response))
       throw new Error("No es posible recuperar los datos");
     const randomNumber = Math.round(Math.random() * (response.length - 1));
-    res.json(response[randomNumber]);
+    res.json({ item: response[randomNumber] });
   } catch (err) {
     console.log(err);
   }
