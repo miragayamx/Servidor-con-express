@@ -1,6 +1,6 @@
 # Servidor-con-express
 
-##Condigna:
+>>Consigna:
 el siguiente formato: { items: [productos], cantidad: (cantidad productos) }
 2) Ruta get '/item-random' que devuelva un producto elegido al azar desde un array de 
 productos que se encuentran en el archivo 'productos.txt'. El formato de respuesta 
@@ -11,7 +11,7 @@ cantidad, item: cantidad } }
 Usar 'productos.txt' del desafío anterior.
 
  
-##Aclaraciones:
+>>Aclaraciones:
 - Utilizar import para importar las dependencias necesarias.
 - Representar por consola el puerto de conexión del servidor y mensajes de error si los 
 hubiese.
